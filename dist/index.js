@@ -1,0 +1,1 @@
+"use strict";const a={b:2},{b:b}=a,c=null!=a?a:b;console.log(123);
