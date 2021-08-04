@@ -19,7 +19,7 @@
         <div class="header">
           <h1 class="header__title">Актуальное</h1>
           <div class="header__scroll">
-            <div class="header__scroll--mini"></div>
+            <div class="header__scroll-indicator"></div>
           </div>
           <div class="header__arrows">
             <button class="arrow-left">
@@ -46,7 +46,9 @@
             </button>
           </div>
         </div>
-        <section class="main">
+      </header>
+      <section class="main">
+        <div class="slider">
           <div class="cards">
             <div class="card card--book">
               <img
@@ -55,17 +57,14 @@
                 width="220px"
                 height="160px"
               />
-              <div class="news">
-                <time class="news__time">10.11.2020 г.</time>
-                <span class="news__title"
-                  >Ким и Валерия Брейтбурги написали книгу про искусство</span
-                >
-                <p class="news__description">
-                  Работа над книгой велась более пяти лет, и действенные
-                  методики, описанные в ней, созданные в результате анализа
-                  и синтеза идей…
-                </p>
-              </div>
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Ким и Валерия Брейтбурги написали книгу про искусство</span
+              >
+              <p class="card__description">
+                Работа над книгой велась более пяти лет, и действенные методики,
+                описанные в ней, созданные в результате анализа и синтеза идей…
+              </p>
             </div>
             <div class="card card--clip">
               <img
@@ -74,17 +73,15 @@
                 width="220px"
                 height="160px"
               />
-              <div class="news">
-                <time class="news__time">10.11.2020 г.</time>
-                <span class="news__title"
-                  >Юрий Колокольников пытается спасти Землю в клипе «Космические
-                  силы»</span
-                >
-                <p class="news__description">
-                  Премьера клипа «Космические силы» группы «Мумий Тролль»
-                  состоялась 6 ноября 2020 года.
-                </p>
-              </div>
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Юрий Колокольников пытается спасти Землю в клипе «Космические
+                силы»</span
+              >
+              <p class="card__description">
+                Премьера клипа «Космические силы» группы «Мумий Тролль»
+                состоялась 6 ноября 2020 года.
+              </p>
             </div>
             <div class="card card--BTS">
               <img
@@ -93,17 +90,14 @@
                 width="220px"
                 height="160px"
               />
-              <div class="news">
-                <time class="news__time">10.11.2020 г.</time>
-                <span class="news__title"
-                  >BTS получили четыре награды MTV EMA</span
-                >
-                <p class="news__description">
-                  BTS получили четыре награды MTV EMA 27-я ежегодная церемония
-                  награждения MTV Europe Music Awards состоялась 8 ноября 2020
-                  г.
-                </p>
-              </div>
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >BTS получили четыре награды MTV EMA</span
+              >
+              <p class="card__description">
+                BTS получили четыре награды MTV EMA 27-я ежегодная церемония
+                награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.
+              </p>
             </div>
             <div class="card card--theater">
               <img
@@ -112,20 +106,83 @@
                 width="220px"
                 height="160px"
               />
-              <div class="news">
-                <time class="news__time">10.11.2020 г.</time>
-                <span class="news__title"
-                  >Открытие сезона «Ла Скала» отменено</span
-                >
-                <p class="news__description">
-                  Миланский театр La Scala отменил открытие сезона. Первый
-                  спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».
-                </p>
-              </div>
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Открытие сезона «Ла Скала» отменено</span
+              >
+              <p class="card__description">
+                Миланский театр La Scala отменил открытие сезона. Первый
+                спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».
+              </p>
+            </div>
+            <div class="card card--book">
+              <img
+                class="card__img"
+                src="./image/Фото.png"
+                width="220px"
+                height="160px"
+              />
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Ким и Валерия Брейтбурги написали книгу про искусство</span
+              >
+              <p class="card__description">
+                Работа над книгой велась более пяти лет, и действенные методики,
+                описанные в ней, созданные в результате анализа и синтеза идей…
+              </p>
+            </div>
+            <div class="card card--clip">
+              <img
+                class="card__img"
+                src="./image/Фото.png"
+                width="220px"
+                height="160px"
+              />
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Юрий Колокольников пытается спасти Землю в клипе «Космические
+                силы»</span
+              >
+              <p class="card__description">
+                Премьера клипа «Космические силы» группы «Мумий Тролль»
+                состоялась 6 ноября 2020 года.
+              </p>
+            </div>
+            <div class="card card--BTS">
+              <img
+                class="card__img"
+                src="./image/Фото.png"
+                width="220px"
+                height="160px"
+              />
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >BTS получили четыре награды MTV EMA</span
+              >
+              <p class="card__description">
+                BTS получили четыре награды MTV EMA 27-я ежегодная церемония
+                награждения MTV Europe Music Awards состоялась 8 ноября 2020 г.
+              </p>
+            </div>
+            <div class="card card--theater">
+              <img
+                class="card__img"
+                src="./image/Фото.png"
+                width="220px"
+                height="160px"
+              />
+              <time class="card__time">10.11.2020 г.</time>
+              <span class="card__title"
+                >Открытие сезона «Ла Скала» отменено</span
+              >
+              <p class="card__description">
+                Миланский театр La Scala отменил открытие сезона. Первый
+                спектакль был назначен на 7 декабря — «Лючия ди Ламмермур».
+              </p>
             </div>
           </div>
-        </section>
-      </header>
+        </div>
+      </section>
     </div>
     <script src="scripts/index.js"></script>
   </body>
